@@ -34,7 +34,10 @@ To run code just `Exercise_1.m` while bein in the hw_1 directory.
 ### Errors
 
 0.1: 3.2589+09
+
 0.2: 3.2614e+09
+
 0.3: 3.2681e+09
+
 0.4: 3.2922e+09 
 
