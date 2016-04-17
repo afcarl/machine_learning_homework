@@ -1,0 +1,23 @@
+
+images_sizes = [192 168];
+images_folder = 'YaleB-Dataset\images\yaleB01\';
+images_regex = 'yaleB01_P00A*.pgm';
+
+full_regex = strcat(images_folder, images_regex);
+
+images_handler = dir(full_regex);
+
+images_number = length(images_handler);
+
+images_array = zeros(images_number, images_sizes(1), images_sizes(2));
+
+for image_number = 1:images_number
+   
+    current_img = imread(strcat(images_folder, images_handler(image_number).name));
+    images_array(image_number, : , :) = current_img;
+    imshow(current_img);
+end
+
+mean_face = mean(images_array, 1);
+
+mean_face_vis = ui
