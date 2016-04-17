@@ -18,11 +18,17 @@ is intractable.
 
 To run code just `Exercise_1.m` while bein in the hw_1 directory.
 
+#### Mean face of original data
 ![Mean face of original data](mean_face.png?raw=true "Optional Title")
+#### First eigenface of original data
 ![First eigenface of original data](no_noise_first_eigenface.png?raw=true "Optional Title")
+#### Second eigenface of original data
 ![Second eigenface of original data](no_noise_second_eigenface.png?raw=true "Optional Title")
+#### Third eigenface of original data
 ![Third eigenface of original data](no_noise_third_eigenface.png?raw=true "Optional Title")
+#### Example of face with missing values (0.4 missing) 
 ![Example of face with missing values (0.4 missing)](missing_values_face_40.png?raw=true "Optional Title")
+#### Reconstructed face with missing values (0.4 missing)
 ![Example of face with missing values (0.4 missing)](reconstructed_face_40.png?raw=true "Optional Title")
 
 ### Errors
